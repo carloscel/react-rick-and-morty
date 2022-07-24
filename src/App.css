@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #242424;
+  color: rgba(255, 255, 255, 0.87);
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.titulo{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.contenedor-general{
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contenedor{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contenedor-imagen{
+  margin: 25px;
+  max-width: 200px;
+  
+}
+
+.imagen{
+  max-width: 200px;
+  border-radius: 50%;
+}
+
+.nombre{
+  font-size: 20px;
+  text-align: center;
+}
+
+.paginas{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.planeta{
+  text-align: center;
+}
